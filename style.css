@@ -1,0 +1,69 @@
+#container{
+    border:1px transparent;
+    border-radius :20px;
+    width:400px;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+    background :transparent;
+  }
+  
+  #timer{ 
+    background-color: grey; 
+    font-size:180%; 
+    margin:10px auto;
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    position:relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+  }
+  
+  #time{
+    color: black;
+    margin-top:80px;
+    z-index : 1;
+    position:relative;
+  }
+  
+  #filler{
+    background : #f50303;
+    height: 0px;
+    width: 200px;
+    position:absolute;
+    bottom:0;
+  }
+  
+  #buttons button { 
+    background:#303031; 
+    border:none; 
+    color:#fff; 
+    cursor:pointer; 
+    padding:20px; 
+    width:180px; 
+    margin:2%;
+    font-size:18px;
+    height : 50%;
+    border-radius : 10px;
+  }
+  
+  #buttons button#shortBreak{
+    background : rgb(161, 157, 148);
+  }
+  
+  #buttons button#longBreak{
+    background :  rgb(161, 157, 148)0;
+  }
+  
+  #buttons button#end{
+    background : #f00;
+  }
+  
+  /* .ringing{
+    animation-name:
+  } */
